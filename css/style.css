@@ -80,9 +80,9 @@ body{
     .paragraph-align{
         text-align: justify;
     }
-    /* .size{
-        margin-left: 10%;
-    } */
+     .size{
+        margin-left: 0;
+    
     .button-align{
         margin-left: 60%;
     }
