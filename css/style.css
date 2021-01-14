@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 .background-color{
     background-color: #fffbf0;
@@ -13,13 +13,13 @@ body{
 }
 #be-the-penguins{
     color:#fabe4c;
-    font-size: 2em;
-    font-weight:bold;
+    font-size: 1.5em;
+}
+#of-winter,#text-style{
+    color:#363958;
 }
 #of-winter{
-    font-size: 2em;
-    color: #737386;
-    font-weight:bold;
+    font-size: 1.5em;
 }
 .img-width{
     width:70%;
@@ -28,16 +28,42 @@ body{
 .div-width{
     border: 0;
 }
-.image-adjust img{
+.image-adjust{
     padding: 5px;
     background-color: lightgray;
     border-radius: 1em;
+    
 }
 .size{
     width: 400px;
     height: 400px;
 }
-
+.penguin-footer{
+    border:0;
+    background-color: white;
+}
+.footer{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fabe4c;
+}
+.button-align{
+    margin-left: 60%;
+}
+.paragraph-align{
+    text-align: justify;
+    font-size: 15px;
+}
+.div-img img{
+    width: 150px;
+    height: 150px;
+}
+.footer-img{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+}
 
 @media (max-width:992px){
     .icon-align{
@@ -48,10 +74,16 @@ body{
         margin-left: 0;
         padding: 0;
     }
-    .penguin-container{
-        display:grid;
-        grid-template-columns: repeat(1,1fr);
+    .button-align{
+        margin-left: 40%;
     }
-    
-
+    .paragraph-align{
+        text-align: justify;
+    }
+    .size{
+        margin-left: 10%;
+    }
+    .button-align{
+        margin-left: 60%;
+    }
 }
