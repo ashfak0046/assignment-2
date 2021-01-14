@@ -81,7 +81,10 @@ body{
         text-align: justify;
     }
      .size{
+        width: 400px;
+        height: 400px;
         margin-left: 5%;
+        
      }
 }
 @media (max-width:668px){
@@ -100,6 +103,9 @@ body{
         text-align: justify;
     }
     .size{
-        margin-left: 6%;
+        width: 400px;
+        height: 400px;
+        margin-left: 5%;
+       
     }
 }
