@@ -87,3 +87,25 @@ body{
         margin-left: 60%;
     }
 }
+@media (max-width:668px){
+    .icon-align{
+        margin-left: 0;
+    }
+    .icon-width img{
+        height:10%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .button-align{
+        margin-left: 40%;
+    }
+    .paragraph-align{
+        text-align: justify;
+    }
+     .size{
+        margin-left: 0;
+     }
+    .button-align{
+        margin-right: 10%;
+    }
+}
