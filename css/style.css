@@ -1,0 +1,57 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.background-color{
+    background-color: #fffbf0;
+}
+.icon-width img{
+    width: 70%;
+    height: 20%;
+}
+.icon-align{
+    margin-left: 50%;
+}
+#be-the-penguins{
+    color:#fabe4c;
+    font-size: 2em;
+    font-weight:bold;
+}
+#of-winter{
+    font-size: 2em;
+    color: #737386;
+    font-weight:bold;
+}
+.img-width{
+    width:70%;
+    margin-left:20%;
+}
+.div-width{
+    border: 0;
+}
+.image-adjust img{
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 1em;
+}
+.size{
+    width: 400px;
+    height: 400px;
+}
+
+
+@media (max-width:992px){
+    .icon-align{
+        margin-left: 0;
+    }
+    .icon-width img{
+        height:10%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .penguin-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+
+}
